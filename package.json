@@ -1,0 +1,10 @@
+{
+  "name": "bdc-xray",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Private-first conversation intelligence dashboard",
+  "scripts": {
+    "test": "node scripts/verify.mjs"
+  }
+}
