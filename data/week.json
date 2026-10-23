@@ -1,0 +1,554 @@
+{
+  "schema": "bdc-xray-v2",
+  "period": {
+    "start": "2026-10-17",
+    "end": "2026-10-23"
+  },
+  "status": "partial",
+  "note": "Tracce documentate, non chat totali o messaggi. Ricostruzione parziale.",
+  "updated": "2026-10-23",
+  "records": [
+    {
+      "id": "T012",
+      "date": "2026-10-18",
+      "topic": "Scrittura autobiografica",
+      "title": "Intervista autobiografica",
+      "summary": "Archivio Markdown sulla creatività e la tecnologia; domande per risposta vocale.",
+      "group": "Contenuti",
+      "signal": "idea",
+      "tags": [
+        "scrittura",
+        "voce"
+      ]
+    },
+    {
+      "id": "T013",
+      "date": "2026-10-18",
+      "topic": "YouTube Studio",
+      "title": "YouTube thumbnail studio",
+      "summary": "Generatore di miniature a partire dai transcript; tipografia bold e contrasto alto.",
+      "group": "Contenuti",
+      "signal": "idea",
+      "tags": [
+        "youtube",
+        "design"
+      ]
+    },
+    {
+      "id": "T014",
+      "date": "2026-10-18",
+      "topic": "Audiogram",
+      "title": "Audiogram",
+      "summary": "Web app con visual reattivi all’audio, QR, card mobili e layout configurabili.",
+      "group": "App e codice",
+      "signal": "idea",
+      "tags": [
+        "audio",
+        "pwa",
+        "webapp"
+      ]
+    },
+    {
+      "id": "T015",
+      "date": "2026-10-19",
+      "topic": "Audiogram",
+      "title": "Audio e animazioni visive",
+      "summary": "Iterazioni su layout card, proporzioni, posizionamento e background animati.",
+      "group": "App e codice",
+      "signal": "revisione",
+      "tags": [
+        "audio",
+        "design"
+      ]
+    },
+    {
+      "id": "T016",
+      "date": "2026-10-19",
+      "topic": "Excel Dashboard Studio",
+      "title": "Excel Dashboard Builder",
+      "summary": "Protocollo di generazione XLSX in due fasi: analisi, poi file finale.",
+      "group": "App e codice",
+      "signal": "decisione",
+      "tags": [
+        "excel",
+        "dashboard",
+        "prompt"
+      ]
+    },
+    {
+      "id": "T017",
+      "date": "2026-10-19",
+      "topic": "DNA Professionale",
+      "title": "Copilot · DNA professionale",
+      "summary": "Istruzioni e personalizzazione per evitare risposte generiche; ruolo e contesto.",
+      "group": "Formazione",
+      "signal": "idea",
+      "tags": [
+        "copilot",
+        "prompt"
+      ]
+    },
+    {
+      "id": "T018",
+      "date": "2026-10-19",
+      "topic": "Formazione aziendale",
+      "title": "azienda · resoconto della docenza",
+      "summary": "Riflessione su un workshop di Copilot in ambito aziendale.",
+      "group": "Formazione",
+      "signal": "lavoro",
+      "tags": [
+        "aziende",
+        "docenza"
+      ]
+    },
+    {
+      "id": "T019",
+      "date": "2026-10-20",
+      "topic": "Social Quotes",
+      "title": "Shorts: volto in card e sfondo",
+      "summary": "Estratti dalle lezioni con immagine personale in card, testo grande e sfondi animati.",
+      "group": "Design",
+      "signal": "revisione",
+      "tags": [
+        "social",
+        "video",
+        "design"
+      ]
+    },
+    {
+      "id": "T020",
+      "date": "2026-10-21",
+      "topic": "Social Quotes",
+      "title": "Cinque layout social, poi nuovi template",
+      "summary": "Rifiuto di cornici e stile tech/neon; richiesta di direzione nuova, più bold e riconoscibile.",
+      "group": "Design",
+      "signal": "revisione",
+      "tags": [
+        "social",
+        "design"
+      ]
+    },
+    {
+      "id": "T021",
+      "date": "2026-10-21",
+      "topic": "Supporto Teams",
+      "title": "Problema allegati Teams",
+      "summary": "Difficoltà ad allegare file in chat; screenshot per diagnosi.",
+      "group": "Operatività",
+      "signal": "ostacolo",
+      "tags": [
+        "teams",
+        "allegati"
+      ]
+    },
+    {
+      "id": "T022",
+      "date": "2026-10-21",
+      "topic": "DNA Professionale",
+      "title": "DNA Professionale · modello riusabile",
+      "summary": "Trasformare dati di ruolo e frustrazioni in Word e PDF compilabile.",
+      "group": "Formazione",
+      "signal": "idea",
+      "tags": [
+        "pdf",
+        "word",
+        "prompt"
+      ]
+    },
+    {
+      "id": "T023",
+      "date": "2026-10-21",
+      "topic": "Analista Documentale",
+      "title": "Confronto incrociato PDF",
+      "summary": "Un PDF principale contro cinque allegati: evidenze per pagina, sinonimi e contraddizioni.",
+      "group": "Documenti",
+      "signal": "idea",
+      "tags": [
+        "pdf",
+        "analisi"
+      ]
+    },
+    {
+      "id": "T024",
+      "date": "2026-10-21",
+      "topic": "Analista Documentale",
+      "title": "Prompt per il confronto PDF",
+      "summary": "Formalizzazione del flusso a due fasi e delle verifiche documentali.",
+      "group": "Documenti",
+      "signal": "decisione",
+      "tags": [
+        "pdf",
+        "prompt"
+      ]
+    },
+    {
+      "id": "T025",
+      "date": "2026-10-21",
+      "topic": "Ricerca aziendale",
+      "title": "Ricerca aziendale in Work",
+      "summary": "Agente Work per analisi online di aziende, fonti e documenti.",
+      "group": "Operatività",
+      "signal": "idea",
+      "tags": [
+        "work",
+        "ricerca",
+        "word"
+      ]
+    },
+    {
+      "id": "T026",
+      "date": "2026-10-21",
+      "topic": "Audio Editor",
+      "title": "Editor audio · recupero idea",
+      "summary": "Richiamo di una precedente PWA per editing audio.",
+      "group": "App e codice",
+      "signal": "idea",
+      "tags": [
+        "audio",
+        "pwa"
+      ]
+    },
+    {
+      "id": "T027",
+      "date": "2026-10-22",
+      "topic": "File Cleaner",
+      "title": "Pulizia file con conferma manuale",
+      "summary": "App cross-platform non invasiva: suggerimenti sì, cancellazione solo su scelta esplicita.",
+      "group": "App e codice",
+      "signal": "decisione",
+      "tags": [
+        "local",
+        "controllo",
+        "privacy"
+      ]
+    },
+    {
+      "id": "T028",
+      "date": "2026-10-22",
+      "topic": "Pubblicazione",
+      "title": "Cloudflare Build, domini e Sites",
+      "summary": "Esplorazione di hosting, pubblicazione e trasferibilità delle app.",
+      "group": "Operatività",
+      "signal": "ostacolo",
+      "tags": [
+        "cloudflare",
+        "hosting"
+      ]
+    },
+    {
+      "id": "T029",
+      "date": "2026-10-22",
+      "topic": "Sito personale",
+      "title": "Landing emanuelebdc.com",
+      "summary": "Richiesta di replicare l’home con lo stesso stile e le fotografie originali.",
+      "group": "Identità",
+      "signal": "revisione",
+      "tags": [
+        "sito",
+        "immagini"
+      ]
+    },
+    {
+      "id": "T030",
+      "date": "2026-10-22",
+      "topic": "Documenti operativi",
+      "title": "Documenti d'incarico PDF",
+      "summary": "Workflow di firma PDF e verifica dei documenti finali.",
+      "group": "Documenti",
+      "signal": "lavoro",
+      "tags": [
+        "pdf",
+        "zip"
+      ]
+    },
+    {
+      "id": "T031",
+      "date": "2026-10-22",
+      "topic": "App Prototype Builder",
+      "title": "Audit visuale web app",
+      "summary": "Analisi della reference e progettazione di nuove icone, sfondi, font e UI più leggibile.",
+      "group": "Design",
+      "signal": "revisione",
+      "tags": [
+        "reference",
+        "design",
+        "UX"
+      ]
+    },
+    {
+      "id": "T032",
+      "date": "2026-10-22",
+      "topic": "Assistente personale",
+      "title": "Elisabetta · assistente operativo",
+      "summary": "Richiesta di assistente con focus su riduzione carico mentale e attività ripetitive.",
+      "group": "Operatività",
+      "signal": "idea",
+      "tags": [
+        "automazione",
+        "workflow"
+      ]
+    },
+    {
+      "id": "T033",
+      "date": "2026-10-22",
+      "topic": "Prompt to AppX",
+      "title": "Prompt to AppX · master prompt",
+      "summary": "Prompt autosufficiente per passare dalla reference ad asset e prototipo funzionante.",
+      "group": "App e codice",
+      "signal": "idea",
+      "tags": [
+        "prompt",
+        "asset",
+        "app"
+      ]
+    },
+    {
+      "id": "T034",
+      "date": "2026-10-22",
+      "topic": "XLS Data Visualizer",
+      "title": "Prototipo XLS Data Visualizer",
+      "summary": "Avvio progetto da bundle ZIP allegato.",
+      "group": "App e codice",
+      "signal": "lavoro",
+      "tags": [
+        "excel",
+        "zip"
+      ]
+    },
+    {
+      "id": "T035",
+      "date": "2026-10-22",
+      "topic": "INSTANT UX",
+      "title": "INSTANT UX · dal kit al prodotto",
+      "summary": "Richiesta di leggere kit ZIP, creare asset reali, verificare V1 e consegnare; pubblicazione GitHub.",
+      "group": "App e codice",
+      "signal": "lavoro",
+      "tags": [
+        "zip",
+        "github",
+        "asset"
+      ]
+    },
+    {
+      "id": "T036",
+      "date": "2026-10-22",
+      "topic": "App Prototype Builder",
+      "title": "Prototype Builder · 45 campi",
+      "summary": "Configuratore guidato locale, PROJECT_MASTER.md e JSON reimportabile; 10 step e moduli.",
+      "group": "App e codice",
+      "signal": "decisione",
+      "tags": [
+        "builder",
+        "offline",
+        "prompt"
+      ]
+    },
+    {
+      "id": "T037",
+      "date": "2026-10-22",
+      "topic": "App Prototype Builder",
+      "title": "Prototype Builder · layout immersivo",
+      "summary": "Approccio a schermo intero, step sequenziali, scritte molto grandi, giallo/nero.",
+      "group": "Design",
+      "signal": "revisione",
+      "tags": [
+        "UX",
+        "design",
+        "bold"
+      ]
+    },
+    {
+      "id": "T038",
+      "date": "2026-10-22",
+      "topic": "App Prototype Builder",
+      "title": "Prototype Builder · commit privato",
+      "summary": "Richiesta di aggiornamento GitHub della repo privata e compatibilità Cloudflare.",
+      "group": "Pubblicazione",
+      "signal": "lavoro",
+      "tags": [
+        "github",
+        "cloudflare"
+      ]
+    },
+    {
+      "id": "T039",
+      "date": "2026-10-22",
+      "topic": "Prompt to AppX",
+      "title": "Prompt to App Builder · istruzioni LLM",
+      "summary": "Trasformare prompt e reference in un progetto eseguibile senza lunga intervista.",
+      "group": "App e codice",
+      "signal": "idea",
+      "tags": [
+        "prompt",
+        "builder"
+      ]
+    },
+    {
+      "id": "T040",
+      "date": "2026-10-22",
+      "topic": "GitHub",
+      "title": "Repository private in massa",
+      "summary": "Domanda sulla conversione massiva delle repository da pubbliche a private.",
+      "group": "Pubblicazione",
+      "signal": "ostacolo",
+      "tags": [
+        "github",
+        "privacy"
+      ]
+    },
+    {
+      "id": "T041",
+      "date": "2026-10-22",
+      "topic": "BDC HUB",
+      "title": "BDC Hub · indice di app",
+      "summary": "Hub mobile-first di app Cloudflare, GitHub, articoli e collegamenti; aggiornamento automatico.",
+      "group": "Pubblicazione",
+      "signal": "idea",
+      "tags": [
+        "hub",
+        "cloudflare",
+        "pwa"
+      ]
+    },
+    {
+      "id": "T042",
+      "date": "2026-10-22",
+      "topic": "Software Studio",
+      "title": "Strategia: meno manutenzione",
+      "summary": "Ridurre debugging ripetitivo, marketing e incombenze di prodotti software; favorire distribuzione semplice.",
+      "group": "Operatività",
+      "signal": "vincolo",
+      "tags": [
+        "software",
+        "automazione"
+      ]
+    },
+    {
+      "id": "T043",
+      "date": "2026-10-23",
+      "topic": "BDC HUB",
+      "title": "BDC Hub · statistiche XXL",
+      "summary": "Homepage centrata su metriche, grafici e osservazioni; titoli enormi, navigazione a icone e pagine dedicate.",
+      "group": "Design",
+      "signal": "revisione",
+      "tags": [
+        "dashboard",
+        "UX",
+        "design"
+      ]
+    },
+    {
+      "id": "T044",
+      "date": "2026-10-23",
+      "topic": "Chat Analytics",
+      "title": "Chat come fonte dati",
+      "summary": "Idea di dashboard aggiornata dalle conversazioni e capace di produrre statistiche e osservazioni.",
+      "group": "App e codice",
+      "signal": "idea",
+      "tags": [
+        "dashboard",
+        "memoria"
+      ]
+    },
+    {
+      "id": "T045",
+      "date": "2026-10-23",
+      "topic": "Chat Analytics",
+      "title": "Dashboard metaconversazionale",
+      "summary": "Richiesta di una dashboard sorprendente che cerchi segnali invisibili nelle ultime due settimane.",
+      "group": "App e codice",
+      "signal": "idea",
+      "tags": [
+        "dashboard",
+        "analisi"
+      ]
+    }
+  ],
+  "insights": [
+    {
+      "title": "LA META-FABBRICA",
+      "short": "Builder e prompt diventano strumenti per creare altri strumenti.",
+      "evidence": "T036 · T039 · T043 · T044",
+      "kind": "INFERENZA"
+    },
+    {
+      "title": "IL PICCO DEL 22",
+      "short": "16 tracce su 34: è il 47% del campione osservabile.",
+      "evidence": "T027–T042",
+      "kind": "INFERENZA"
+    },
+    {
+      "title": "GRANDE È UNA FUNZIONE",
+      "short": "La richiesta di testo XXL torna in progetti diversi.",
+      "evidence": "T020 · T031 · T037 · T043",
+      "kind": "INFERENZA"
+    },
+    {
+      "title": "CONSEGNA, NON SOLO DEMO",
+      "short": "GitHub e Cloudflare tornano nel ciclo del prototipo.",
+      "evidence": "T028 · T035 · T038 · T040",
+      "kind": "INFERENZA"
+    },
+    {
+      "title": "AUTO MODE, MA CON FRENI",
+      "short": "Automazione creativa; scelta manuale per azioni delicate.",
+      "evidence": "T027 · T036 · T039",
+      "kind": "INFERENZA"
+    },
+    {
+      "title": "L'AULA DIVENTA UN TOOL",
+      "short": "Processi di formazione trasformati in prompt e software.",
+      "evidence": "T016 · T017 · T022 · T023",
+      "kind": "INFERENZA"
+    },
+    {
+      "title": "LA REVISIONE È STRUTTURA",
+      "short": "7 tracce taggate revisione: non equivalgono a 7 fallimenti.",
+      "evidence": "T015 · T019 · T020 · T029 · T031 · T037 · T043",
+      "kind": "INFERENZA"
+    },
+    {
+      "title": "AUDIO E APP CONVERGONO",
+      "short": "Gli output creativi diventano configuratori riutilizzabili.",
+      "evidence": "T013 · T014 · T019 · T033",
+      "kind": "INFERENZA"
+    },
+    {
+      "title": "QUELLO CHE NON SAPPIAMO",
+      "short": "Non possiamo dedurre ore lavorate o successi dal solo riassunto.",
+      "evidence": "Campione parziale",
+      "kind": "LIMITE"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "NON CI SIAMO PROPRIO.",
+      "when": "21 OTT",
+      "evidence": "T020"
+    },
+    {
+      "text": "VOGLIO TUTTO PIÙ USABILE, PIÙ BOLD.",
+      "when": "22 OTT",
+      "evidence": "T037"
+    },
+    {
+      "text": "PIÙ GRAFICI E STATISTICHE VISIVE.",
+      "when": "23 OTT",
+      "evidence": "T043"
+    }
+  ],
+  "links": [
+    {
+      "label": "BDC HUB",
+      "url": "https://github.com/emaf205/bdc-hub"
+    },
+    {
+      "label": "AUDIO VISUAL REACT",
+      "url": "https://github.com/emaf205/audio-visual-react"
+    },
+    {
+      "label": "SITO BDC",
+      "url": "https://emanuelebdc.com/"
+    }
+  ]
+}
