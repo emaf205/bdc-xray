@@ -27,6 +27,7 @@ A.reset=function(){XR.state.query="";XR.state.signal="all";XR.state.group="all";
 A.resetSample=function(){if(!A.seed)return;XR.state={...XR.state,data:A.seed,source:"seed",page:"home",query:"",signal:"all",group:"all",archiveStats:null};A.goto("home")};
 A.bind=function(){
  document.addEventListener("click",e=>{
+ const retry=e.target.closest("[data-retry]");if(retry){location.reload();return}
  const nav=e.target.closest("[data-nav]");if(nav){A.goto(nav.dataset.nav);return}
  const ex=e.target.closest("[data-export]");if(ex){A.exportData(ex.dataset.export);return}
  const proof=e.target.closest("[data-proof]");if(proof){A.proof(proof.dataset.proof);return}
@@ -43,6 +44,6 @@ A.bind=function(){
  window.addEventListener("hashchange",()=>{const id=location.hash.slice(1);if(id&&id!==XR.state.page)A.goto(id)});
 };
 A.init=async function(){A.bind();const hash=location.hash.slice(1);if(XV.navItems.some(x=>x[0]===hash))XR.state.page=hash;
- try{const res=await fetch("./data/week.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);A.seed=XR.normalize(await res.json());XR.state.data=A.seed;A.render()}catch(err){A.app.innerHTML='<div class="empty"><h2>DATI NON CARICATI.</h2><p>'+XR.esc(err.message)+'</p><button class="btn" onclick="location.reload()">RIPROVA ↗</button></div>'}
+ try{const res=await fetch("./data/week.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);A.seed=XR.normalize(await res.json());XR.state.data=A.seed;A.render()}catch(err){A.app.innerHTML='<div class="empty"><h2>DATI NON CARICATI.</h2><p>'+XR.esc(err.message)+'</p><button class="btn" data-retry="1">RIPROVA ↗</button></div>'}
  if("serviceWorker" in navigator&&/^https?:$/.test(location.protocol)){navigator.serviceWorker.register("./sw.js").catch(()=>{})}};
 A.init();
