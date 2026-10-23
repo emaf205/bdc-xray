@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "BDC X-RAY — Conversation Intelligence",
+  "short_name": "BDC X-RAY",
+  "description": "Dashboard visuale delle conversazioni: statistiche, scoperte, tracce.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#10110f",
+  "theme_color": "#efff3c",
+  "lang": "it",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
