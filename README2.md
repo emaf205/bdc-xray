@@ -1,3 +1,0 @@
-# BDC X-RAY
-
-Dashboard
