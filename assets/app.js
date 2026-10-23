@@ -21,7 +21,7 @@ const rects=arr.map((it,i)=>{const h=Math.max(3,Math.round(it.count/max*plot)),x
 A.exportData=function(kind){const data=XR.state.data,files="bdc-xray-"+data.period.start+"-"+data.period.end;
 if(kind==="json"){const safe={...data,meta:{unit:XR.state.source==="archive"?"messaggio utente":"traccia ricostruita",scope:XR.state.source,archiveStats:XR.state.archiveStats||null}};XR.download(files+".json","application/json;charset=utf-8",JSON.stringify(safe,null,2));}
 if(kind==="csv")XR.download(files+".csv","text/csv;charset=utf-8","\ufeff"+XR.serializeCSV(XR.rows()));
-if(kind==="svg")A.exportSVG();if(kind==="pdf")window.print()};
+if(kind==="svg")A.exportSVG();if(kind==="pdf"){const previous=XR.state.page;XR.state.page="home";A.render();window.addEventListener("afterprint",()=>{XR.state.page=previous;A.render()},{once:true});setTimeout(()=>window.print(),80)}};
 A.import=function(file){const el=document.getElementById("import-status");if(el)el.textContent="ANALISI LOCALE IN CORSO…";XR.importArchive(file).then(()=>{A.render();let l=XR.state.archiveStats;let msg=l?"ARCHIVIO CARICATO: "+l.chats+" CHAT / "+l.userMessages+" MESSAGGI UTENTE":XR.stats().n+" TRACCE IMPORTATE";A.error(msg);document.getElementById("message-zone")?.scrollIntoView({behavior:"smooth",block:"start"});}).catch(err=>{const e=document.getElementById("import-status");if(e)e.textContent="ERRORE: "+err.message;A.error("IMPORTAZIONE FALLITA: "+err.message)})};
 A.reset=function(){XR.state.query="";XR.state.signal="all";XR.state.group="all";A.render()};
 A.resetSample=function(){if(!A.seed)return;XR.state={...XR.state,data:A.seed,source:"seed",page:"home",query:"",signal:"all",group:"all",archiveStats:null};A.goto("home")};
